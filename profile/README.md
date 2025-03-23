@@ -1,5 +1,7 @@
 # 🔤 Typed Grammar
 
+<img src="./logo.svg" width="125">
+
 Typed Grammar creates TypeScript type-level libraries for expressing grammatically correct natural language. Our goal is to leverage TypeScript's powerful type system to help understand, learn, and verify the grammar rules of different languages.
 
 ## 🚀 Projects

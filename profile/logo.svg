@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3142" />
+      <stop offset="100%" stop-color="#1A1F33" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" />
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#7E8FDD" stroke-width="5" stroke-opacity="0.5" />
+  <!-- TypeScript logo reference (stylized T) -->
+  <path d="M60 65 H110 V75 H95 V135 H75 V75 H60 Z" fill="#3178C6" />
+  <!-- Grammar structure elements -->
+  <g stroke="#A5ADFF" stroke-width="2.5" stroke-linecap="round">
+    <!-- Subject line -->
+    <line x1="120" y1="70" x2="160" y2="70" />
+    <!-- Verb line -->
+    <line x1="120" y1="90" x2="150" y2="90" />
+    <!-- Object line -->
+    <line x1="120" y1="110" x2="140" y2="110" />
+    <!-- Connection lines -->
+    <path d="M120 70 Q115 80 120 90" fill="none" />
+    <path d="M120 90 Q115 100 120 110" fill="none" />
+    <!-- Bracket connecting all elements -->
+    <path d="M165 65 Q170 90 165 115" fill="none" />
+  </g>
+  <!-- Code elements (curly braces, dots, colons) -->
+  <g fill="#61DAFB">
+    <text x="130" y="63" font-family="monospace" font-size="12">:</text>
+    <text x="130" y="83" font-family="monospace" font-size="12">:</text>
+    <text x="130" y="103" font-family="monospace" font-size="12">:</text>
+    <text x="165" y="90" font-family="monospace" font-size="18">{}</text>
+  </g>
+  <!-- Type indicators -->
+  <g fill="#E5C07B" font-family="monospace" font-size="10">
+    <text x="140" y="63">string</text>
+    <text x="140" y="83">verb</text>
+    <text x="140" y="103">T</text>
+  </g>
+  <!-- Code line at bottom -->
+  <!-- <text x="100" y="150" font-family="monospace" font-size="10" fill="#ABB2BF" text-anchor="middle">type Sentence&lt;T&gt; = Grammar</text> -->
+</svg>
