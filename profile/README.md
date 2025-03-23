@@ -7,7 +7,7 @@ Typed Grammar creates TypeScript type-level libraries for expressing grammatical
 ## 🚀 Projects
 
 - **[Typed Japanese](https://github.com/typedgrammar/typed-japanese)** - Our first prototype implements Japanese grammar as a TypeScript type system, enabling grammatically correct sentences to be annotated by TypeScript.
-- **Typed English** - Currently in development, applying similar principles to English grammar.
+- **[Typed English](https://github.com/typedgrammar/typed-english)** - Currently in development, applying similar principles to English grammar.
 
 ## 🔮 Vision
 
